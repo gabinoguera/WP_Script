@@ -15,24 +15,7 @@ Prerequisites
 Python 3.x
 pandas library
 requests library
-Install the required libraries using pip:
-
-sh
-Copiar código
-pip install pandas requests
-
-Setup
-Clone the repository:
-
-sh
-Copiar código
-git clone https://github.com/yourusername/WP-Script.git
-
-Navigate to the project directory:
-sh
-
-Copiar código
-cd WP-Script
+Install the required libraries using pip.
 
 Usage
 Data Processing:
@@ -40,9 +23,6 @@ Data Processing:
 Ensure your Excel file with data is ready, you can use GPT for the necessary logic.
 Run the DFbuilder.py script to read and clean the data:
 
-sh
-Copiar código
-python DFbuilder.py
 This will generate a cleaned and structured DataFrame.
 
 WordPress API Interaction:
@@ -50,9 +30,6 @@ WordPress API Interaction:
 Configure your WordPress API credentials in autopost.py.
 Run the autopost.py script to create posts and tags in WordPress:
 
-sh
-Copiar código
-python autopost.py
 
 Example
 Assuming you have an Excel file named universidades.xlsx, the process will:
